@@ -1,0 +1,6 @@
+@SurveyTool_HostAddress = http://localhost:5054
+
+GET {{SurveyTool_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
