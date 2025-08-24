@@ -62,9 +62,8 @@ In Development:
 	Seeds two surveys:
 		“Customer Satisfaction Survey” (with a conditional follow-up)
 		“Employee Engagement Survey”
-	
-	Each has one or more sample responses.
-	See SurveyTool.Infrastructure/Seed/SeedData.cs.
+Each has one or more sample responses.
+See SurveyTool.Infrastructure/Seed/SeedData.cs.
 
 ## Validation & errors
 DTO validation with DataAnnotations + a Minimal API ValidationFilter<T> → 400 ValidationProblem for bad inputs.
