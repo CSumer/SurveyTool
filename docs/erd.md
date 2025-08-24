@@ -16,29 +16,29 @@ erDiagram
       int Id PK
       int SurveyId FK
       string Text
-      enum QuestionType  // SingleChoice, MultipleChoice, FreeText
-      int ParentQuestionId FK  // conditional parent
-      int[] VisibilityShowWhenAnyOptionIds  // triggers
+      enum QuestionType
+      int ParentQuestionId FK
+      int[] VisibilityShowWhenAnyOptionIds
     }
 
     AnswerOption {
       int Id PK
       int QuestionId FK
       string Text
-      int Weight  // optional effect if 0
+      int Weight
     }
 
     SurveyResponse {
       int Id PK
       int SurveyId FK
       datetime CreatedAt
-      int Score  // persisted total at submit time
+      int Score
     }
 
     ResponseItem {
       int Id PK
       int SurveyResponseId FK
       int QuestionId
-      string SelectedOptionIdsCsv  // e.g. "10,11" (null for FreeText)
+      string SelectedOptionIdsCsv
       string FreeText
     }
