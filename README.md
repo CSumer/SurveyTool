@@ -22,7 +22,7 @@ Set SurveyTool.Api as Startup Project.
 Choose https or http profile and press F5.  
 
 ## API Overview
-#Surveys
+### Surveys
 - GET /api/surveys – list all
 - GET /api/surveys/{id} – get one
 - POST /api/surveys – create
@@ -30,18 +30,18 @@ Choose https or http profile and press F5.
 - DELETE /api/surveys/{id} – delete (cascades)
 - GET /api/surveys/{id}/score – aggregate score (sum/count/average)
 
-#Questions & Options
+### Questions & Options
 - POST /api/surveys/{id}/questions – add question
 - POST /api/questions/{questionId}/options – add option
 
-#Responses
+### Responses
 - POST /api/surveys/{id}/responses – submit response (validates visibility & types; computes and persists score)
 - GET /api/responses/{responseId} – get response details (items + score)
 - GET /api/surveys/{surveyId}/responses – list responses for a survey  
 
 Swagger shows examples, summaries, and enum names instead of numbers (for clarity and readability).
 
-# Conditional visibility
+### Conditional visibility
 A question may specify:  
 ParentQuestionId: the question it depends on  
 VisibilityShowWhenAnyOptionIds: the set of parent option IDs that make it visible  
