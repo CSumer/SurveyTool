@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\terri\\source\\repos\\SurveyTool\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8890F335-D550-4451-B4B6-A18F55E6FDDB}|SurveyTool\\SurveyTool.csproj|c:\\users\\terri\\source\\repos\\surveytool\\surveytool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8890F335-D550-4451-B4B6-A18F55E6FDDB}|SurveyTool\\SurveyTool.csproj|solutionrelative:surveytool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,20 +9,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\terri\\source\\repos\\SurveyTool\\SurveyTool\\Program.cs",
-              "RelativeDocumentMoniker": "SurveyTool\\Program.cs",
-              "ToolTip": "C:\\Users\\terri\\source\\repos\\SurveyTool\\SurveyTool\\Program.cs",
-              "RelativeToolTip": "SurveyTool\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T23:09:47.707Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
