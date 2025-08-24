@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     Survey ||--o{ Question : has
     Question ||--o{ AnswerOption : has
