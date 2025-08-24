@@ -9,7 +9,7 @@ erDiagram
     Survey {
       int Id PK
       string Title
-      string? Description
+      string Description
     }
 
     Question {
@@ -17,8 +17,8 @@ erDiagram
       int SurveyId FK
       string Text
       enum QuestionType  // SingleChoice, MultipleChoice, FreeText
-      int? ParentQuestionId FK  // conditional parent
-      int[]? VisibilityShowWhenAnyOptionIds  // triggers
+      int ParentQuestionId FK  // conditional parent
+      int[] VisibilityShowWhenAnyOptionIds  // triggers
     }
 
     AnswerOption {
@@ -39,6 +39,6 @@ erDiagram
       int Id PK
       int SurveyResponseId FK
       int QuestionId
-      string? SelectedOptionIdsCsv  // e.g. "10,11" (null for FreeText)
-      string? FreeText
+      string SelectedOptionIdsCsv  // e.g. "10,11" (null for FreeText)
+      string FreeText
     }
